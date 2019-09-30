@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ClinkedIn.Api.Models
 {
-    public class Wardens
+    public class Warden
     {
     }
 }
