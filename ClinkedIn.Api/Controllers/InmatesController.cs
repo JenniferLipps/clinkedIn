@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ClinkedIn.Api.DataAccess;
-using ClinkedIn.Api.DataAccess;
+using ClinkedIn.Api.Models;
 
 namespace ClinkedIn.Api.Controllers
 {
