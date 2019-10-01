@@ -9,9 +9,9 @@ using ClinkedIn.Api.Models;
 
 namespace ClinkedIn.Api.Controllers
 {
-    [Route("api/inmates")]
+    [Route("api/facility")]
     [ApiController]
-    public class InmatesController : ControllerBase
+    public class FacilityController : ControllerBase
     {
     }
 }
