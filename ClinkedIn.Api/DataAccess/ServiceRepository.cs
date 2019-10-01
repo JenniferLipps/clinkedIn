@@ -55,7 +55,7 @@ namespace ClinkedIn.Api.DataAccess
             new Service
             {
                 Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000008"),
-                Name = "Circulating a petition",
+                Name = "Possession of anything not authorized for retention or receipt by the inmate, and not issued to him through regular channels",
                 Price = 8.00m,
             },
             new Service
