@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClinkedIn.Api.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,7 +8,33 @@ namespace ClinkedIn.Api.DataAccess
 {
     public class InterestRepository
     {
-        
-        static List<Trainer>_interests
+
+        static List<Interest>_interests = new List<Interest>
+        {
+            new Interest
+
+        {
+                Id = new Guid("10000000 - 0000 - 0000 - 000001"),
+                Name = "Arson"
+            },
+
+            new Interest
+            {
+                Id = new Guid("10000000 - 0000 - 0000 - 000002"),
+                Name = "Pyromania"
+
+            },
+
+            new Interest
+            {
+                Id = new Guid(" 10000000 - 0000 - 0000 - 000003"),
+                Name = "Burglary"
+                
+            }
+        };
+
+     
+       
     }
+
 }
