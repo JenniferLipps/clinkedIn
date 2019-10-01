@@ -150,14 +150,170 @@ namespace ClinkedIn.Api.DataAccess
             },
             new Service
             {
-                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000015"),
-                Name = "",
-                Price = 15.00m,
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000023"),
+                Name = "Use of the telephone for abuses other than illegal activity which circumvent the ability of staff to monitor frequency of telephone use, content of the call, or the number called",
+                Price = 23.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000024"),
+                Name = "Tattooing or self-mutilation",
+                Price = 24.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000025"),
+                Name = "Stalking another person through repeated behavior which harasses, alarms, or annoys the person, after having been previously warned to stop such conduct",
+                Price = 25.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000026"),
+                Name = "Assaulting any person",
+                Price = 26.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000027"),
+                Name = "Demonstrating, practicing, or using martial arts, boxing (except for use of a punching bag), wrestling, or other forms of physical encounter, or military exercises or drill (except for drill authorized by staff)",
+                Price = 27.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000028"),
+                Name = "Stealing; theft",
+                Price = 28.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000029"),
+                Name = "Destroying, altering, or damaging government property, or the property of another person, having a value in excess of $100.00, or destroying, altering, damaging life-safety devices (e.g., fire alarm) regardless of financial value",
+                Price = 29.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000030"),
+                Name = "Giving money to, or receiving money from, any person for the purpose of introducing contraband or any other illegal or prohibited purpose",
+                Price = 30.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000031"),
+                Name = "Giving or offering an official or staff member a bribe, or anything of value",
+                Price = 31.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000032"),
+                Name = "Obtain any officers or staff clothing",
+                Price = 32.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000033"),
+                Name = "Adulteration of any food or drink",
+                Price = 33.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000034"),
+                Name = "Possession of any unauthorized locking device, or lock pick, or tampering with or blocking any lock device (includes keys), or destroying, altering, interfering with, improperly using, or damaging any security device, mechanism, or procedure",
+                Price = 34.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000035"),
+                Name = "Extortion; blackmail; protection; demanding or receiving money or anything of value in return for protection against others, to avoid bodily harm, or under threat of informing",
+                Price = 35.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000036"),
+                Name = "Threatening another with bodily harm or any other offense",
+                Price = 36.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000037"),
+                Name = "Fighting with another person",
+                Price = 37.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000038"),
+                Name = "Use of the telephone for an illegal purpose ",
+                Price = 38.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000039"),
+                Name = "Use of the mail for an illegal purpose",
+                Price = 39.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000040"),
+                Name = "Destroying and/or disposing of any item during a search or attempt to search",
+                Price = 40.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000041"),
+                Name = "Possession (holding) any narcotics, marijuana, drugs, alcohol, intoxicants, or related paraphernalia, not prescribed for the individual by the medical staff",
+                Price = 41.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000042"),
+                Name = "Introduction or making of any narcotics, marijuana, drugs, alcohol, intoxicants, or related paraphernalia, not prescribed for the individual by the medical staff",
+                Price = 42.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000043"),
+                Name = "Possession, manufacture, introduction, or loss of a hazardous tool",
+                Price = 43.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000044"),
+                Name = "Taking hostage(s)",
+                Price = 44.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000045"),
+                Name = "Encouraging others to riot",
+                Price = 45.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000046"),
+                Name = "Rioting",
+                Price = 46.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000047"),
+                Name = "Possession, manufacture, or introduction of a gun, firearm, weapon, sharpened instrument, knife, dangerous chemical, explosive, ammunition, or any instrument used as a weapon",
+                Price = 47.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000048"),
+                Name = "Setting a fire",
+                Price = 48.00m,
+            },
+            new Service
+            {
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000049"),
+                Name = "Assaulting any person, or an armed assault on the institution’s secure perimeter",
+                Price = 49.00m,
             },
             new Service
             {
                 Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000015"),
-                Name = "",
+                Name = "Killing",
                 Price = 15.00m,
             },
         };
