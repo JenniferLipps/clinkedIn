@@ -108,12 +108,6 @@ namespace ClinkedIn.Api.DataAccess
             },
             new Service
             {
-                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000016"),
-                Name = "Using any equipment or machinery contrary to instructions or posted safety standards",
-                Price = 16.00m,
-            },
-            new Service
-            {
                 Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000017"),
                 Name = "Using any equipment or machinery without staff authorization",
                 Price = 17.00m,
@@ -312,9 +306,9 @@ namespace ClinkedIn.Api.DataAccess
             },
             new Service
             {
-                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000015"),
+                Id = new Guid("20000000 - 0000 - 0000 - 0000 - 000000000050"),
                 Name = "Killing",
-                Price = 15.00m,
+                Price = 50.00m,
             },
         };
     }
