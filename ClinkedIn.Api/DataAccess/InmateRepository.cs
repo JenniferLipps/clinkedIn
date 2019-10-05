@@ -36,7 +36,7 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 000003")
+                    new Guid ("110000000 - 0000 - 0000 - 0000 - 000000000003")
                 }
             },
             new Inmate
@@ -66,7 +66,7 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 000003")
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003")
                 }
             },
             new Inmate
@@ -95,8 +95,8 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 000003"),
-                    new Guid ("10000000 - 0000 - 0000 - 000001")
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000001")
                 }
             },
             new Inmate
@@ -126,7 +126,7 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 000003"),                    
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),                    
                 }
             },
             new Inmate
@@ -156,7 +156,7 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 000003"),
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
                 }
             },
             new Inmate
@@ -186,7 +186,7 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 000003"),
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
                 }
             },
             new Inmate
@@ -206,7 +206,7 @@ namespace ClinkedIn.Api.DataAccess
                 {
                     new Guid ("00000000-0000-0000-0000-000000000001"),
                     new Guid ("00000000-0000-0000-0000-000000000006"),
-                    new Guid ("00000000-0000-0000-0000-000000000012"),
+                    new Guid ("00000000-0000-0000-0000-000000000015"),
                 },
                 Services = new List<Guid>()
                 {
@@ -216,7 +216,7 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 000003"),
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
                 }
             },
             new Inmate
@@ -246,8 +246,221 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 000003"),
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
                 }
+            },
+            new Inmate
+            {
+                Id = new Guid ("00000000-0000-0000-0000-000000000009"),
+                FirstName = "Martin",
+                LastName = "Shkreli",
+                ReleaseDate = new DateTime (2025, 3, 9),
+                Budget = 25.00M,
+                Friends = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000002"),
+                    new Guid ("00000000-0000-0000-0000-000000000004"),
+                    new Guid ("00000000-0000-0000-0000-000000000007"),
+                },
+                Enemies = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000003"),
+                    new Guid ("00000000-0000-0000-0000-000000000005"),
+                    new Guid ("00000000-0000-0000-0000-000000000008"),
+                },
+                Services = new List<Guid>()
+                {
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000021"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000030"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000035"),
+                },
+                Interests = new List<Guid>()
+                {
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                }
+            },
+            new Inmate
+            {
+                Id = new Guid ("00000000-0000-0000-0000-000000000010"),
+                FirstName = "Lee Boyd",
+                LastName = "Malvo",
+                ReleaseDate = new DateTime (2099, 1, 1),
+                Budget = 25.00M,
+                Friends = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000006"),
+                    new Guid ("00000000-0000-0000-0000-000000000011"),
+                    new Guid ("00000000-0000-0000-0000-000000000015"),
+                },
+                Enemies = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000004"),
+                    new Guid ("00000000-0000-0000-0000-000000000007"),
+                    new Guid ("00000000-0000-0000-0000-000000000008"),
+                },
+                Services = new List<Guid>()
+                {
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000026"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000044"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000050"),
+                },
+                Interests = new List<Guid>()
+                {
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                }
+            },
+            new Inmate
+            {
+                Id = new Guid ("00000000-0000-0000-0000-000000000011"),
+                FirstName = "Jon",
+                LastName = "Woods",
+                ReleaseDate = new DateTime (2037, 9, 18),
+                Budget = 25.00M,
+                Friends = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000007"),
+                    new Guid ("00000000-0000-0000-0000-000000000008"),
+                    new Guid ("00000000-0000-0000-0000-000000000009"),
+                },
+                Enemies = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000002"),
+                    new Guid ("00000000-0000-0000-0000-000000000003"),
+                    new Guid ("00000000-0000-0000-0000-000000000013"),
+                },
+                Services = new List<Guid>()
+                {
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000005"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000013"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000031"),
+                },
+                Interests = new List<Guid>()
+                {
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                }
+            },
+            new Inmate
+            {
+                Id = new Guid ("00000000-0000-0000-0000-000000000012"),
+                FirstName = "Dzhokhar",
+                LastName = "Tsarnaev",
+                ReleaseDate = new DateTime (2099, 1, 1),
+                Budget = 25.00M,
+                Friends = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000003"),
+                    new Guid ("00000000-0000-0000-0000-000000000006"),
+                    new Guid ("00000000-0000-0000-0000-000000000009"),
+                },
+                Enemies = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000001"),
+                    new Guid ("00000000-0000-0000-0000-000000000012"),
+                    new Guid ("00000000-0000-0000-0000-000000000014"),
+                },
+                Services = new List<Guid>()
+                {
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000005"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000013"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000031"),
+                },
+                Interests = new List<Guid>()
+                {
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000001"),
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000002")
+                }
+            },
+            new Inmate
+            {
+                Id = new Guid ("00000000-0000-0000-0000-000000000013"),
+                FirstName = "Michael",
+                LastName = "Cohen",
+                ReleaseDate = new DateTime (2022, 5, 6),
+                Budget = 25.00M,
+                Friends = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000004"),
+                    new Guid ("00000000-0000-0000-0000-000000000011"),
+                    new Guid ("00000000-0000-0000-0000-000000000009"),
+                },
+                Enemies = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000007"),
+                    new Guid ("00000000-0000-0000-0000-000000000008"),
+                    new Guid ("00000000-0000-0000-0000-000000000010"),
+                },
+                Services = new List<Guid>()
+                {
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000035"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000038"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000045"),
+                },
+                Interests = new List<Guid>()
+                {
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000002")
+                }
+            },
+            new Inmate
+            {
+                Id = new Guid ("00000000-0000-0000-0000-000000000014"),
+                FirstName = "Robert",
+                LastName = "Chambers",
+                ReleaseDate = new DateTime (2026, 10, 15),
+                Budget = 25.00M,
+                Friends = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000002"),
+                    new Guid ("00000000-0000-0000-0000-000000000004"),
+                    new Guid ("00000000-0000-0000-0000-000000000009"),
+                },
+                Enemies = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000003"),
+                    new Guid ("00000000-0000-0000-0000-000000000012"),
+                    new Guid ("00000000-0000-0000-0000-000000000010"),
+                },
+                Services = new List<Guid>()
+                {
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000042"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000049"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000035"),
+                },
+                Interests = new List<Guid>()
+                {
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                }
+            },
+             new Inmate
+            {
+                Id = new Guid ("00000000-0000-0000-0000-000000000015"),
+                FirstName = "Bernie",
+                LastName = "Madoff",
+                ReleaseDate = new DateTime (2159, 1, 1),
+                Budget = 25.00M,
+                Friends = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000005"),
+                    new Guid ("00000000-0000-0000-0000-000000000007"),
+                    new Guid ("00000000-0000-0000-0000-000000000008"),
+                },
+                Enemies = new List<Guid>()
+                {
+                    new Guid ("00000000-0000-0000-0000-000000000003"),
+                    new Guid ("00000000-0000-0000-0000-000000000004"),
+                    new Guid ("00000000-0000-0000-0000-000000000011"),
+                },
+                Services = new List<Guid>()
+                {
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000009"),
+                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000019"),
+                },
+                Interests = new List<Guid>()
+                {
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                }
+            }
         };
     }
 }
