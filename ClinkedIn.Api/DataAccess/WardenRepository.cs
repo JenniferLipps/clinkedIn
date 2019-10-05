@@ -6,7 +6,7 @@ using ClinkedIn.Api.Models;
 
 namespace ClinkedIn.Api.DataAccess
 {
-    public class WardensRepository
+    public class WardenRepository
     {
         static List<Warden> _wardens = new List<Warden>
         {
