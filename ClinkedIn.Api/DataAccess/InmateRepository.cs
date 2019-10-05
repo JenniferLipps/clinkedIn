@@ -36,7 +36,7 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("110000000 - 0000 - 0000 - 0000 - 000000000003")
+                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003")
                 }
             },
             new Inmate
