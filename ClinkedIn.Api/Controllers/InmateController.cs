@@ -13,5 +13,12 @@ namespace ClinkedIn.Api.Controllers
     [ApiController]
     public class InmateController : ControllerBase
     {
+        [HttpGet"{interestId}"]
+        public ActionResult<Inmate> GetByInterest(Guid interestId)
+        {
+            var repo = new InmateRepository();
+            return repo.GetInterest();
+
+        }
     }
 }
