@@ -15,7 +15,7 @@ namespace ClinkedIn.Api.DataAccess
                 Id = new Guid ("00000000-0000-0000-0000-000000000001"),
                 FirstName = "Joe",
                 LastName = "Jailbird",
-                ReleaseDate = new DateTime (2020, 4, 20),                
+                ReleaseDate = new DateTime (2020, 4, 20),
                 Budget = 25.00M,
                 Friends = new List<Guid>()
                 {
@@ -31,12 +31,12 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000009"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000013"),
+                    new Guid ("20000000-0000-0000-0000-000000000009"),
+                    new Guid ("20000000-0000-0000-0000-000000000013"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003")
+                    new Guid ("10000000-0000-0000-0000-000000000003")
                 }
             },
             new Inmate
@@ -44,7 +44,7 @@ namespace ClinkedIn.Api.DataAccess
                 Id = new Guid ("00000000-0000-0000-0000-000000000002"),
                 FirstName = "DB",
                 LastName = "Cooper",
-                ReleaseDate = new DateTime (2071, 11, 24),                
+                ReleaseDate = new DateTime (2071, 11, 24),
                 Budget = 25.00M,
                 Friends = new List<Guid>()
                 {
@@ -60,13 +60,13 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000010"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000017"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000028"),
+                    new Guid ("20000000-0000-0000-0000-000000000010"),
+                    new Guid ("20000000-0000-0000-0000-000000000017"),
+                    new Guid ("20000000-0000-0000-0000-000000000028"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003")
+                    new Guid ("10000000-0000-0000-0000-000000000003")
                 }
             },
             new Inmate
@@ -90,13 +90,13 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000005"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000036"),               
+                    new Guid ("20000000-0000-0000-0000-000000000005"),
+                    new Guid ("20000000-0000-0000-0000-000000000036"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000001")
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
+                    new Guid ("10000000-0000-0000-0000-000000000001")
                 }
             },
             new Inmate
@@ -120,13 +120,13 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000013"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000031"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000038"),
+                    new Guid ("20000000-0000-0000-0000-000000000013"),
+                    new Guid ("20000000-0000-0000-0000-000000000031"),
+                    new Guid ("20000000-0000-0000-0000-000000000038"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),                    
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
                 }
             },
             new Inmate
@@ -150,13 +150,13 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000037"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000043"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000050"),
+                    new Guid ("20000000-0000-0000-0000-000000000037"),
+                    new Guid ("20000000-0000-0000-0000-000000000043"),
+                    new Guid ("20000000-0000-0000-0000-000000000050"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
                 }
             },
             new Inmate
@@ -180,13 +180,13 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000020"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000028"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000050"),
+                    new Guid ("20000000-0000-0000-0000-000000000020"),
+                    new Guid ("20000000-0000-0000-0000-000000000028"),
+                    new Guid ("20000000-0000-0000-0000-000000000050"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
                 }
             },
             new Inmate
@@ -210,13 +210,13 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000033"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000036"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000050"),
+                    new Guid ("20000000-0000-0000-0000-000000000033"),
+                    new Guid ("20000000-0000-0000-0000-000000000036"),
+                    new Guid ("20000000-0000-0000-0000-000000000050"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
                 }
             },
             new Inmate
@@ -240,13 +240,13 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000015"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000016"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000050"),
+                    new Guid ("20000000-0000-0000-0000-000000000015"),
+                    new Guid ("20000000-0000-0000-0000-000000000016"),
+                    new Guid ("20000000-0000-0000-0000-000000000050"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
                 }
             },
             new Inmate
@@ -270,13 +270,13 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000021"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000030"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000035"),
+                    new Guid ("20000000-0000-0000-0000-000000000021"),
+                    new Guid ("20000000-0000-0000-0000-000000000030"),
+                    new Guid ("20000000-0000-0000-0000-000000000035"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
                 }
             },
             new Inmate
@@ -300,13 +300,13 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000026"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000044"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000050"),
+                    new Guid ("20000000-0000-0000-0000-000000000026"),
+                    new Guid ("20000000-0000-0000-0000-000000000044"),
+                    new Guid ("20000000-0000-0000-0000-000000000050"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
                 }
             },
             new Inmate
@@ -330,13 +330,13 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000005"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000013"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000031"),
+                    new Guid ("20000000-0000-0000-0000-000000000005"),
+                    new Guid ("20000000-0000-0000-0000-000000000013"),
+                    new Guid ("20000000-0000-0000-0000-000000000031"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
                 }
             },
             new Inmate
@@ -360,14 +360,14 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000005"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000013"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000031"),
+                    new Guid ("20000000-0000-0000-0000-000000000005"),
+                    new Guid ("20000000-0000-0000-0000-000000000013"),
+                    new Guid ("20000000-0000-0000-0000-000000000031"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000001"),
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000002")
+                    new Guid ("10000000-0000-0000-0000-000000000001"),
+                    new Guid ("10000000-0000-0000-0000-000000000002")
                 }
             },
             new Inmate
@@ -391,14 +391,14 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000035"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000038"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000045"),
+                    new Guid ("20000000-0000-0000-0000-000000000035"),
+                    new Guid ("20000000-0000-0000-0000-000000000038"),
+                    new Guid ("20000000-0000-0000-0000-000000000045"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000002")
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
+                    new Guid ("10000000-0000-0000-0000-000000000002")
                 }
             },
             new Inmate
@@ -422,13 +422,13 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000042"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000049"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000035"),
+                    new Guid ("20000000-0000-0000-0000-000000000042"),
+                    new Guid ("20000000-0000-0000-0000-000000000049"),
+                    new Guid ("20000000-0000-0000-0000-000000000035"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
                 }
             },
              new Inmate
@@ -452,15 +452,46 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Services = new List<Guid>()
                 {
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000003"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000009"),
-                    new Guid ("20000000 - 0000 - 0000 - 0000 - 000000000019"),
+                    new Guid ("20000000-0000-0000-0000-000000000003"),
+                    new Guid ("20000000-0000-0000-0000-000000000009"),
+                    new Guid ("20000000-0000-0000-0000-000000000019"),
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
                 }
             }
         };
+
+        public List<Inmate> GetAll()
+        {
+            return _inmates;
+        }
+
+        public List<Inmate> GetEnemiesByInmateId(Guid inmateId)
+        {
+            List<Inmate> _inmateEnemies = new List<Inmate>();
+
+            var selectedInmate = _inmates.First(inmate => inmate.Id == inmateId);
+
+            foreach (var enemyId in selectedInmate.Enemies)
+            {
+                var enemy = _inmates.First(inmate => inmate.Id == enemyId);
+                _inmateEnemies.Add(enemy);
+            }
+
+            return _inmateEnemies;
+        }
+
+        public Inmate GetInmateById(Guid inmateId)
+        {
+            var selectedInmate = _inmates.First(inmate => inmate.Id == inmateId);
+            return selectedInmate;
+        }
+
+        public static implicit operator List<object>(InmateRepository v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

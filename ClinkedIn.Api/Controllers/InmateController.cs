@@ -13,5 +13,18 @@ namespace ClinkedIn.Api.Controllers
     [ApiController]
     public class InmateController : ControllerBase
     {
+        [HttpGet("{id}")]
+        public ActionResult<IEnumerable<Inmate>> GetEnemiesByInmateId(Guid inmateId)
+        {
+            var repo = new InmateRepository();
+            return repo.GetEnemiesByInmateId(inmateId);
+        }
+
+        [HttpGet]
+        public ActionResult<IEnumerable<Inmate>> GetAllInmates()
+        {
+            var repo = new InmateRepository();
+            return repo.GetAll();
+        }
     }
 }
