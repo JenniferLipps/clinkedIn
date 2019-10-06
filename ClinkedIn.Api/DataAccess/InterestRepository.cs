@@ -13,21 +13,21 @@ namespace ClinkedIn.Api.DataAccess
         {
             new Interest
 
-        {
-                Id = new Guid("10000000 - 0000 - 0000 - 0000 - 000000000001"),
+            {
+                Id = new Guid("10000000-0000-0000-0000-000000000001"),
                 Name = "Arson"
             },
 
             new Interest
             {
-                Id = new Guid("10000000 - 0000 - 0000 - 0000 - 000000000002"),
+                Id = new Guid("10000000-0000-0000-0000-000000000002"),
                 Name = "Pyromania"
 
             },
 
             new Interest
             {
-                Id = new Guid("10000000 - 0000 - 0000 - 0000 - 000000000003"),
+                Id = new Guid("10000000-0000-0000-0000-000000000003"),
                 Name = "Burglary"
                 
             }
