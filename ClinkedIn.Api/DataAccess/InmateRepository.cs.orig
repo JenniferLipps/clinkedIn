@@ -91,7 +91,11 @@ namespace ClinkedIn.Api.DataAccess
                 Services = new List<Guid>()
                 {
                     new Guid ("20000000-0000-0000-0000-000000000005"),
+<<<<<<< HEAD
+                    new Guid ("20000000-0000-0000-0000-000000000036"),               
+=======
                     new Guid ("20000000-0000-0000-0000-000000000036"),
+>>>>>>> master
                 },
                 Interests = new List<Guid>()
                 {
@@ -126,7 +130,11 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Interests = new List<Guid>()
                 {
+<<<<<<< HEAD
                     new Guid ("10000000-0000-0000-0000-000000000003"),                    
+=======
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
+>>>>>>> master
                 }
             },
             new Inmate
@@ -463,12 +471,12 @@ namespace ClinkedIn.Api.DataAccess
             }
         };
 
+<<<<<<< HEAD
         public Inmate Create(Inmate newInmate)
         {
             _inmates.Add(newInmate);
             return newInmate;
-        }
-
+=======
         public List<Inmate> GetAll()
         {
             return _inmates;
@@ -493,6 +501,12 @@ namespace ClinkedIn.Api.DataAccess
         {
             var selectedInmate = _inmates.First(inmate => inmate.Id == inmateId);
             return selectedInmate;
+        }
+
+        public static implicit operator List<object>(InmateRepository v)
+        {
+            throw new NotImplementedException();
+>>>>>>> master
         }
     }
 }

@@ -14,6 +14,7 @@ namespace ClinkedIn.Api.Controllers
     [ApiController]
     public class InmateController : ControllerBase
     {
+<<<<<<< HEAD
         [HttpPost]
         public IActionResult CreateInmate(CreateInmateCommand newInmateCommand)
         {
@@ -30,8 +31,7 @@ namespace ClinkedIn.Api.Controllers
             var inmateThatGotCreated = repo.Create(newInmate);
 
             return Created($"api/inmate/{inmateThatGotCreated.FirstName}{inmateThatGotCreated.LastName}", inmateThatGotCreated);
-        }
-
+=======
         [HttpGet("{id}")]
         public ActionResult<IEnumerable<Inmate>> GetEnemiesByInmateId(Guid inmateId)
         {
@@ -44,6 +44,7 @@ namespace ClinkedIn.Api.Controllers
         {
             var repo = new InmateRepository();
             return repo.GetAll();
+>>>>>>> master
         }
     }
 }
