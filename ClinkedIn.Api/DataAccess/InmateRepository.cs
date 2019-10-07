@@ -126,7 +126,9 @@ namespace ClinkedIn.Api.DataAccess
                 },
                 Interests = new List<Guid>()
                 {
-                    new Guid ("10000000-0000-0000-0000-000000000003"),                    
+
+                    new Guid ("10000000-0000-0000-0000-000000000003"),                   
+                    new Guid ("10000000-0000-0000-0000-000000000003"),
                 }
             },
             new Inmate
@@ -463,6 +465,8 @@ namespace ClinkedIn.Api.DataAccess
             }
         };
 
+        private Guid friendId;
+
         public Inmate Create(Inmate newInmate)
         {
             _inmates.Add(newInmate);
@@ -489,10 +493,31 @@ namespace ClinkedIn.Api.DataAccess
             return _inmateEnemies;
         }
 
+
+        public List<Inmate> GetFriendsByInmateId(Guid inmateId)
+        {
+            List<Inmate> _inmateFriends = new List<Inmate>();
+
+            var selectedInmate = _inmates.First(inmate => inmate.Id == inmateId);
+
+            foreach (var enemyId in selectedInmate.Friends)
+            {
+                var friend = _inmates.First(inmate => inmate.Id == friendId);
+                _inmateFriends.Add(friend);
+            }
+            return _inmateFriends;
+        }
         public Inmate GetInmateById(Guid inmateId)
         {
             var selectedInmate = _inmates.First(inmate => inmate.Id == inmateId);
             return selectedInmate;
         }
+
+
+        public static implicit operator List<object>(InmateRepository v)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

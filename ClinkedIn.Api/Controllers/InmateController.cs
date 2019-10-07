@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ClinkedIn.Api.DataAccess;
 using ClinkedIn.Api.Models;
-using ClinkedIn.Api.Commands;
 
 namespace ClinkedIn.Api.Controllers
 {
@@ -14,36 +13,12 @@ namespace ClinkedIn.Api.Controllers
     [ApiController]
     public class InmateController : ControllerBase
     {
-        [HttpPost]
-        public IActionResult CreateInmate(CreateInmateCommand newInmateCommand)
-        {
-            var newInmate = new Inmate
-            {
-                Id = Guid.NewGuid(),
-                FirstName = newInmateCommand.FirstName,
-                LastName = newInmateCommand.LastName,
-                ReleaseDate = newInmateCommand.ReleaseDate,
-                Budget = newInmateCommand.Budget,
-            };
-
-            var repo = new InmateRepository();
-            var inmateThatGotCreated = repo.Create(newInmate);
-
-            return Created($"api/inmate/{inmateThatGotCreated.FirstName}{inmateThatGotCreated.LastName}", inmateThatGotCreated);
-        }
-
-        [HttpGet("{id}")]
-        public ActionResult<IEnumerable<Inmate>> GetEnemiesByInmateId(Guid inmateId)
-        {
-            var repo = new InmateRepository();
-            return repo.GetEnemiesByInmateId(inmateId);
-        }
-
-        [HttpGet]
-        public ActionResult<IEnumerable<Inmate>> GetAllInmates()
-        {
-            var repo = new InmateRepository();
-            return repo.GetAll();
-        }
+        public ActionResult<Friends> GetByFriendsId(Guid Friendsid)
+            return repo.Get(Friendsid)
+    }
+    [HttpGet("{Friends Id}")]
+public ActionResult<Friends> GetByFriendsId(Guid Friendsid)
+    {
+        throw new NotImplementedException();
     }
 }
