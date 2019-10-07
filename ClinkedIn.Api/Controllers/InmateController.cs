@@ -39,6 +39,14 @@ namespace ClinkedIn.Api.Controllers
             return repo.GetEnemiesByInmateId(inmateId);
         }
 
+        [HttpGet("{id}")]
+        public ActionResult<IEnumerable<Inmate>> GetFriendsByInmateId(Guid inmateId)
+        {
+            var repo = new InmateRepository();
+            return repo.GetFriendsByInmateId(inmateId);
+        }
+
+
         [HttpGet]
         public ActionResult<IEnumerable<Inmate>> GetAllInmates()
         {
