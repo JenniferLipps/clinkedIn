@@ -13,5 +13,12 @@ namespace ClinkedIn.Api.Controllers
     [ApiController]
     public class InmateController : ControllerBase
     {
+        public ActionResult<Friends> GetByFriendsId(Guid Friendsid)
+            return repo.Get(Friendsid)
+    }
+    [HttpGet("{Friends Id}")]
+public ActionResult<Friends> GetByFriendsId(Guid Friendsid)
+    {
+        throw new NotImplementedException();
     }
 }
