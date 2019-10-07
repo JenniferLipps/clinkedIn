@@ -7,5 +7,14 @@ namespace ClinkedIn.Api.Commands
 {
     public class CreateInmateCommand
     {
+<<<<<<< HEAD
     }
 }
+=======
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime ReleaseDate { get; set; }
+        public decimal Budget { get; set; }
+    }
+}
+>>>>>>> master

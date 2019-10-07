@@ -13,7 +13,11 @@ namespace ClinkedIn.Api.DataAccess
         {
             new Interest
 
+<<<<<<< HEAD
             {
+=======
+        {
+>>>>>>> master
                 Id = new Guid("10000000-0000-0000-0000-000000000001"),
                 Name = "Arson"
             },
